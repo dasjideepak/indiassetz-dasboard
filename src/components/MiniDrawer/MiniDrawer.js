@@ -9,7 +9,8 @@ import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
 import ListItemText from "@mui/material/ListItemText";
-import ImagesLinks from "../ImagesLinks";
+import ImagesLinks from "../../ImagesLinks";
+import "./MiniDrawer.css";
 
 const drawerWidth = 240;
 
@@ -49,6 +50,7 @@ const Drawer = styled(MuiDrawer, {
   flexShrink: 0,
   whiteSpace: "nowrap",
   boxSizing: "border-box",
+  borderRight: 0,
   ...(open && {
     ...openedMixin(theme),
     "& .MuiDrawer-paper": openedMixin(theme),
@@ -107,7 +109,7 @@ export default function MiniDrawer() {
               alt="logo"
               onClick={handleDrawer}
             />
-            <ChevronLeftIcon onClick={handleDrawer} />
+            {/* <ChevronLeftIcon onClick={handleDrawer} /> */}
           </>
         ) : (
           <>
@@ -116,7 +118,7 @@ export default function MiniDrawer() {
               alt="logo"
               onClick={handleDrawer}
             />
-            <ChevronRightIcon onClick={handleDrawer} />
+            {/* <ChevronRightIcon onClick={handleDrawer} /> */}
           </>
         )}
       </DrawerHeader>

@@ -8,6 +8,9 @@ const ImageLinks = {
   smallLogoIcon: require("./assets/images/ia-logo.png"),
   largeLogoIcon: require("./assets/images/ia-lg-logo.png"),
   signOut: require("./assets/images/sign-out.png"),
+  downArrow: require("./assets/images/down-arrow.png"),
+  upArrow: require("./assets/images/up-arrow.png"),
+  customers: require("./assets/images/customers.png"),
 };
 
 export default ImageLinks;

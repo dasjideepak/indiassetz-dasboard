@@ -10,12 +10,10 @@ function App() {
     <BrowserRouter>
       <Box sx={{ display: "flex" }}>
         <MiniDrawer />
-        <Box component="main" sx={{ flexGrow: 1, p: 3 }}>
-          <Routes>
-            <Route path="/" element={<Dashboard />} />
-            <Route path="/add-property" element={<AddProperty />} />
-          </Routes>
-        </Box>
+        <Routes>
+          <Route path="/" element={<Dashboard />} />
+          <Route path="/add-property" element={<AddProperty />} />
+        </Routes>
       </Box>
     </BrowserRouter>
   );
