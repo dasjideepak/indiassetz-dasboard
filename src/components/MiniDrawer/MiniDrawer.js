@@ -131,7 +131,7 @@ export default function MiniDrawer() {
                 justifyContent: open ? "initial" : "center",
                 px: 2.5,
               }}
-              onClick={() => navigate(item.route)}
+              onClick={(() => navigate(item.route), { replace: true })}
             >
               <ListItemIcon
                 sx={{
