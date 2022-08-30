@@ -14,6 +14,8 @@ const ImageLinks = {
   memoji: require("./assets/images/memoji.png"),
   searchIcon: require("./assets/images/search-icon.png"),
   notificationBell: require("./assets/images/notification-bell.png"),
+  resedentialProperty: require("./assets/images/res-prop.png"),
+  commercialProperty: require("./assets/images/comm-prop.png"),
 };
 
 export default ImageLinks;
