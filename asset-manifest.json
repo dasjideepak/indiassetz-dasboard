@@ -1,15 +1,17 @@
 {
   "files": {
     "main.css": "/indiassetz-dasboard/static/css/main.7be4d4a7.css",
-    "main.js": "/indiassetz-dasboard/static/js/main.c1283ff7.js",
+    "main.js": "/indiassetz-dasboard/static/js/main.4b19e921.js",
     "static/js/787.d24da266.chunk.js": "/indiassetz-dasboard/static/js/787.d24da266.chunk.js",
+    "static/media/res-prop.png": "/indiassetz-dasboard/static/media/res-prop.5a7a6522ed0039099a42.png",
+    "static/media/comm-prop.png": "/indiassetz-dasboard/static/media/comm-prop.bfb4058ddd7400294a33.png",
     "index.html": "/indiassetz-dasboard/index.html",
     "main.7be4d4a7.css.map": "/indiassetz-dasboard/static/css/main.7be4d4a7.css.map",
-    "main.c1283ff7.js.map": "/indiassetz-dasboard/static/js/main.c1283ff7.js.map",
+    "main.4b19e921.js.map": "/indiassetz-dasboard/static/js/main.4b19e921.js.map",
     "787.d24da266.chunk.js.map": "/indiassetz-dasboard/static/js/787.d24da266.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7be4d4a7.css",
-    "static/js/main.c1283ff7.js"
+    "static/js/main.4b19e921.js"
   ]
 }
