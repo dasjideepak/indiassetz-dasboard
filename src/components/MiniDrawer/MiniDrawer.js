@@ -127,7 +127,7 @@ export default function MiniDrawer() {
                 justifyContent: open ? "initial" : "center",
                 px: 2.5,
               }}
-              onClick={(() => navigate(item.route), { replace: true })}
+              onClick={() => navigate("/indiassetz-dasboard" + item.route)}
             >
               <ListItemIcon
                 sx={{

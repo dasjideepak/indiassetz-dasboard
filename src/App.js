@@ -11,8 +11,11 @@ function App() {
       <Box sx={{ display: "flex" }}>
         <MiniDrawer />
         <Routes>
-          <Route path="/" element={<Dashboard />} />
-          <Route path="/add-property" element={<AddProperty />} />
+          <Route path="/indiassetz-dasboard" element={<Dashboard />} />
+          <Route
+            path="/indiassetz-dasboard/add-property"
+            element={<AddProperty />}
+          />
         </Routes>
       </Box>
     </BrowserRouter>
