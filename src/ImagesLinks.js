@@ -11,6 +11,9 @@ const ImageLinks = {
   downArrow: require("./assets/images/down-arrow.png"),
   upArrow: require("./assets/images/up-arrow.png"),
   customers: require("./assets/images/customers.png"),
+  memoji: require("./assets/images/memoji.png"),
+  searchIcon: require("./assets/images/search-icon.png"),
+  notificationBell: require("./assets/images/notification-bell.png"),
 };
 
 export default ImageLinks;

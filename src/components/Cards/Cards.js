@@ -5,6 +5,7 @@ import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
 import "./Cards.css";
 import ImageLinks from "../../ImagesLinks";
+import Progress from "../Progress";
 
 export default function Cards() {
   let data = [
@@ -57,7 +58,7 @@ export default function Cards() {
           }}
           className="card"
         >
-          <CardContent>
+          <CardContent sx={{ position: "relative" }}>
             <Box sx={{ display: "flex", justifyContent: "space-between" }}>
               <Box>
                 <img src={item.imgSrc} alt={item.title} width="78.8px" />
@@ -71,7 +72,6 @@ export default function Cards() {
                 />
               </Box>
             </Box>
-
             <Typography
               sx={{
                 fontSize: "16px",
@@ -95,6 +95,11 @@ export default function Cards() {
             >
               {item.count}
             </Typography>
+            {index === 3 && (
+              <Box sx={{ position: "absolute", right: 36, bottom: 28 }}>
+                <Progress />
+              </Box>
+            )}
           </CardContent>
         </Card>
       ))}

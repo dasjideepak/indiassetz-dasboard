@@ -3,8 +3,6 @@ import { useNavigate } from "react-router-dom";
 import { styled } from "@mui/material/styles";
 import MuiDrawer from "@mui/material/Drawer";
 import List from "@mui/material/List";
-import ChevronLeftIcon from "@mui/icons-material/ChevronLeft";
-import ChevronRightIcon from "@mui/icons-material/ChevronRight";
 import ListItem from "@mui/material/ListItem";
 import ListItemButton from "@mui/material/ListItemButton";
 import ListItemIcon from "@mui/material/ListItemIcon";
@@ -109,7 +107,6 @@ export default function MiniDrawer() {
               alt="logo"
               onClick={handleDrawer}
             />
-            {/* <ChevronLeftIcon onClick={handleDrawer} /> */}
           </>
         ) : (
           <>
@@ -118,7 +115,6 @@ export default function MiniDrawer() {
               alt="logo"
               onClick={handleDrawer}
             />
-            {/* <ChevronRightIcon onClick={handleDrawer} /> */}
           </>
         )}
       </DrawerHeader>
